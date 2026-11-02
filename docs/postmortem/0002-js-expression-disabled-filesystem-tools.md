@@ -1,7 +1,6 @@
 # Post-mortem 0002: Filesystem snapshot tools were permanently disabled
 
-English | [中文](0002-js-expression-disabled-filesystem-tools.zh.md)
-
+English`r`n
 Status: resolved
 
 ## Executive summary

@@ -5,8 +5,7 @@ kind: "package-group"
 
 # packages/browser-use
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Browser-use providers let models inspect and operate web pages. This group owns exclusive provider registration. Experimental providers supply browser tools and manage each Session's browser resources.

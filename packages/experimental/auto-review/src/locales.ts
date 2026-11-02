@@ -7,46 +7,25 @@ export const en = {
 }
 
 /** Chinese approval messages. */
-export const zh = {
-  denied: 'Auto review 拒绝了此调用。',
-  deniedWithReason: (reason: string): string => `Auto review 拒绝了此调用：${reason}`,
-} satisfies typeof en
+export const zh: Record<string, string> = {}
 
 /** Japanese approval messages. */
-export const ja = {
-  denied: '自動認可レビューがこの呼び出しを拒否しました。',
-  deniedWithReason: (reason: string): string => `自動認可レビューがこの呼び出しを拒否しました：${reason}`,
-} satisfies typeof en
+export const ja: Record<string, string> = {}
 
 /** Spanish dictionary, checked against the English keys. */
-export const es = {
-  denied: 'Auto review ha denegado esta llamada.',
-  deniedWithReason: (reason: string): string => `Auto review ha denegado esta llamada: ${reason}`,
-} satisfies typeof en
+export const es: Record<string, string> = {}
 
 /** French dictionary, checked against the English keys. */
-export const fr = {
-  denied: 'Auto review a refusé cet appel.',
-  deniedWithReason: (reason: string): string => `Auto review a refusé cet appel : ${reason}`,
-} satisfies typeof en
+export const fr: Record<string, string> = {}
 
 /** German dictionary, checked against the English keys. */
-export const de = {
-  denied: 'Auto review hat diesen Aufruf abgelehnt.',
-  deniedWithReason: (reason: string): string => `Auto review hat diesen Aufruf abgelehnt: ${reason}`,
-} satisfies typeof en
+export const de: Record<string, string> = {}
 
 /** Russian dictionary, checked against the English keys. */
-export const ru = {
-  denied: 'Auto review отклонила этот вызов.',
-  deniedWithReason: (reason: string): string => `Auto review отклонила этот вызов: ${reason}`,
-} satisfies typeof en
+export const ru: Record<string, string> = {}
 
 /** Portuguese dictionary, checked against the English keys. */
-export const pt = {
-  denied: 'Auto review negou esta chamada.',
-  deniedWithReason: (reason: string): string => `Auto review negou esta chamada: ${reason}`,
-} satisfies typeof en
+export const pt: Record<string, string> = {}
 
 /**
  * Build all display translations without translating the reviewer's raw reason.

@@ -4,8 +4,7 @@ description: "Issue policy enforcement, Project access, and lifecycle events for
 
 # Issue management
 
-English | [中文](README.zh.md)
-
+English`n
 ## Summary
 
 Contributors can link Issues as context without coupling pull-request validation to Project availability. Resolving references additionally enforce Project Priority. The required `Issue policy` job and the separate lifecycle workflow use trusted default-branch code.

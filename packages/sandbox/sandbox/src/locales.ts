@@ -6,39 +6,25 @@ export const en = {
 }
 
 /** Chinese escalation messages. */
-export const zh = {
-  escalation: (mode: string, justification: string): string => `允许本次操作使用 ${mode} 权限：${justification}`,
-} satisfies typeof en
+export const zh: Record<string, string> = {}
 
 /** Japanese escalation messages. */
-export const ja = {
-  escalation: (mode: string, justification: string): string => `${mode} 権限でこの操作を許可します：${justification}`,
-} satisfies typeof en
+export const ja: Record<string, string> = {}
 
 /** Spanish dictionary, checked against the English keys. */
-export const es = {
-  escalation: (mode: string, justification: string): string => `Permitir esta operación con permisos ${mode}: ${justification}`,
-} satisfies typeof en
+export const es: Record<string, string> = {}
 
 /** French dictionary, checked against the English keys. */
-export const fr = {
-  escalation: (mode: string, justification: string): string => `Autoriser cette opération avec les permissions ${mode} : ${justification}`,
-} satisfies typeof en
+export const fr: Record<string, string> = {}
 
 /** German dictionary, checked against the English keys. */
-export const de = {
-  escalation: (mode: string, justification: string): string => `Diesen Vorgang mit ${mode}-Berechtigungen zulassen: ${justification}`,
-} satisfies typeof en
+export const de: Record<string, string> = {}
 
 /** Russian dictionary, checked against the English keys. */
-export const ru = {
-  escalation: (mode: string, justification: string): string => `Разрешить эту операцию с правами ${mode}: ${justification}`,
-} satisfies typeof en
+export const ru: Record<string, string> = {}
 
 /** Portuguese dictionary, checked against the English keys. */
-export const pt = {
-  escalation: (mode: string, justification: string): string => `Permitir esta operação com permissões ${mode}: ${justification}`,
-} satisfies typeof en
+export const pt: Record<string, string> = {}
 
 /**
  * Build translations for the existing Client localized-text resolver.

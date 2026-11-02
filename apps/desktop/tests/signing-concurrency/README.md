@@ -4,8 +4,7 @@ description: "Windows signing concurrency measurements and retesting on replacem
 
 # Windows signing concurrency qualification
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Use this record when choosing signing concurrency on a replacement Windows runner. Results apply to the measured host, token and software combination; repeat qualification after changing them. Production signing remains serial.

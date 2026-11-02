@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-04
 
-English | [中文](2026-08-29-windows-lane-hook-and-lefthook-budget.zh.md)
-
+English`n
 ## Problem
 
 Two facts kept the Windows coverage lane failing on branches that touched neither the suite nor the gate.

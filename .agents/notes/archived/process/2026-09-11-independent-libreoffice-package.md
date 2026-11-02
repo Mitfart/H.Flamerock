@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-11
 
-English | [中文](2026-09-11-independent-libreoffice-package.zh.md)
-
+English`n
 ## Problem
 
 Compiling LibreOffice inside ordinary DSH builds would require every contributor and CI job to acquire its toolchain and repeat a large native build. Desktop also needs immutable engine resources that can travel with its offline installation material.

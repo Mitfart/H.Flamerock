@@ -2,8 +2,7 @@
 
 Status: implemented
 
-English | [中文](2026-09-17-standalone-schedules.zh.md)
-
+English`n
 ## Problem
 
 Host tasks need global management and explicit delivery targets while remaining recognizable in their Workspace.

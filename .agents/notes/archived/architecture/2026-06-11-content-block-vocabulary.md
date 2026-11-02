@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-06-11-content-block-vocabulary.zh.md)
-
+English`n
 ## Problem
 
 The harness needs one internal language for messages that the loop, session log, and all plugins speak.

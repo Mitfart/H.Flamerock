@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-16-sandbox-same-mode.zh.md)
-
+English`n
 ## Problem
 
 Models can repeat `sandbox_permissions: danger-full-access` while that mode is already effective. Rejecting the call prevents authorized work without preventing any permission increase.

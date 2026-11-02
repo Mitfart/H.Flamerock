@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-04
 
-English | [中文](2026-08-21-product-subagent-minimal-diagnostics.zh.md)
-
+English`n
 ## Problem
 
 The Claude Code and Codex providers receive structured failures from independently versioned product runtimes. Mirroring every member of those upstream error unions into model-visible diagnostics makes each runtime upgrade expand the Provider contract even when the parent agent would take the same next action for several categories.

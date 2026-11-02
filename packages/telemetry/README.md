@@ -5,8 +5,7 @@ kind: "package-group"
 
 # telemetry/ — shared reporting
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 This group provides reporting infrastructure shared by product analytics and feedback-authorized Session uploads. Business plugins select events, identities, authorization, and redaction; transport plugins own encoding and delivery.

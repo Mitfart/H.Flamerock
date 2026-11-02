@@ -5,8 +5,7 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-tool-subagent-control
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 `dsh-tool-subagent-control` lets agents message and interrupt subagents and list continuable children. One plugin instance registers all three tools for a scope shared by multiple delegation backends. Parents and continuable children inherit the same messaging definition and ordering. Tool presence does not select the delegation lifecycle.

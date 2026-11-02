@@ -5,8 +5,7 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-experimental-api-speech-to-text
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 The `speech` Remote connects browser recordings to `ctx.speechToText`. It exposes provider discovery and one complete-recording transcription call.

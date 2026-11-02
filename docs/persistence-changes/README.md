@@ -4,8 +4,7 @@ description: "Review and maintain recorded Session persistence-type changes, the
 
 # Persistence-type change records
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Use this reference to inspect an acknowledged Session persistence-type change and its predecessor. Each record binds a compatibility decision to exact generated schemas. Local checks compare the current source with the recorded history using only files in the checkout. Start with the [review cookbook](../cookbook/reviewing-persistence-type-changes.md) when changing a persisted type.

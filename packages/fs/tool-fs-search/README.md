@@ -5,8 +5,7 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-tool-fs-search
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Use `dsh-tool-fs-search` to give models `glob` file discovery and `grep` content search over a local workspace. Searches need no host `rg` installation or filesystem provider, return workdir-relative results, and include hidden and ignored files while excluding VCS metadata. Configurable caps bound inline output; with an optional spill store, capped results remain fully recoverable. Choose the sibling `dsh-tool-fs` package for reading, writing, or editing files.

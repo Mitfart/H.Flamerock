@@ -5,8 +5,7 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-client-ui-dockkit
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 A docking layout kit: a split tree of tabbed panes with invertible operations, and the components that render and drive it. The Harness Web client is its first embedder; nothing in here knows that.

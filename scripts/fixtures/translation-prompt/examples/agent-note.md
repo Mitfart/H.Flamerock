@@ -2,8 +2,7 @@
 
 Status: implemented
 
-English | [中文](agent-note.zh.md)
-
+English`r`n
 ## Problem
 
 Similar examples used different headings.

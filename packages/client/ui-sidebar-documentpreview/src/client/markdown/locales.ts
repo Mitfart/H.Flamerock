@@ -1,10 +1,5 @@
 /** Markdown implementation labels and primitive chrome. */
-export const zh = {
-  'viewer.label': 'Markdown',
-  'code.copy': '复制',
-  'code.copied': '已复制',
-  'footnotes': '脚注',
-} satisfies Record<string, string>
+export const zh: Record<string, string> = {}
 
 /** Markdown namespace keys. */
 export type MarkdownPreviewKey = keyof typeof zh
@@ -25,49 +20,19 @@ declare module '@deepseek-ai/dsh-client-ui-slots' {
 }
 
 /** Japanese copy, checked against the English keys. */
-export const ja = {
-  'viewer.label': 'Markdown',
-  'code.copy': 'コピー',
-  'code.copied': 'コピーしました',
-  'footnotes': '脚注',
-} satisfies Record<keyof typeof en, string>
+export const ja: Record<string, string> = {}
 
 /** Spanish dictionary, checked against the English keys. */
-export const es = {
-  'viewer.label': 'Markdown',
-  'code.copy': 'Copiar',
-  'code.copied': 'Copiado',
-  'footnotes': 'Notas a pie de página',
-} satisfies Record<keyof typeof en, string>
+export const es: Record<string, string> = {}
 
 /** French dictionary, checked against the English keys. */
-export const fr = {
-  'viewer.label': 'Markdown',
-  'code.copy': 'Copier',
-  'code.copied': 'Copié',
-  'footnotes': 'Notes de bas de page',
-} satisfies Record<keyof typeof en, string>
+export const fr: Record<string, string> = {}
 
 /** German dictionary, checked against the English keys. */
-export const de = {
-  'viewer.label': 'Markdown',
-  'code.copy': 'Kopieren',
-  'code.copied': 'Kopiert',
-  'footnotes': 'Fußnoten',
-} satisfies Record<keyof typeof en, string>
+export const de: Record<string, string> = {}
 
 /** Russian dictionary, checked against the English keys. */
-export const ru = {
-  'viewer.label': 'Markdown',
-  'code.copy': 'Копировать',
-  'code.copied': 'Скопировано',
-  'footnotes': 'Сноски',
-} satisfies Record<keyof typeof en, string>
+export const ru: Record<string, string> = {}
 
 /** Portuguese dictionary, checked against the English keys. */
-export const pt = {
-  'viewer.label': 'Markdown',
-  'code.copy': 'Copiar',
-  'code.copied': 'Copiado',
-  'footnotes': 'Notas de rodapé',
-} satisfies Record<keyof typeof en, string>
+export const pt: Record<string, string> = {}

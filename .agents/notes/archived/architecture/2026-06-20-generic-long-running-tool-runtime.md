@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-06-20-generic-long-running-tool-runtime.zh.md)
-
+English`n
 ## Problem
 
 Background bash originally combined two responsibilities: the bash executor ran processes and also managed job ids, ownership, incremental reads, cancellation, completion listeners, and model-facing control tools. Adding background subagents required the same lifecycle and interaction contract. Implementing that contract independently for every long-running capability would duplicate isolation, cleanup, notification, and prompt behavior while teaching the model a different collect-and-stop protocol for each producer.

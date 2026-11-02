@@ -4,8 +4,7 @@ description: "Build Desktop installers locally or through Windows or macOS Actio
 
 # Desktop packaging
 
-English | [中文](README.zh.md)
-
+English`n
 ## Summary
 
 Build Desktop installers locally or through Windows or macOS Actions, choose deployment and signing mode, and retrieve artifacts and diagnostics. This guide keeps build operations separate from publishing and installed-application qualification. Platform signing details and shared-runner risks must be checked before using hardware credentials.

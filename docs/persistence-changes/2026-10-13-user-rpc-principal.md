@@ -5,8 +5,7 @@ kind: persistence-change
 
 # 2026-10-13-user-rpc-principal
 
-English | [中文](2026-10-13-user-rpc-principal.zh.md)
-
+English`r`n
 ## Summary
 
 Adds an optional principal to the user-rpc message source for prompts submitted by a caller other than the owner.

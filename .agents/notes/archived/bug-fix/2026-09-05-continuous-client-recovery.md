@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-05-continuous-client-recovery.zh.md)
-
+English`n
 ## Problem
 
 A generation source can remain pending without reporting readiness or carrier failure. A warning alone leaves the Client waiting indefinitely. Finite automatic retries also leave a page disconnected after the Host recovers from a longer outage, even though the browser's network status never changes.

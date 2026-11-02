@@ -5,8 +5,7 @@ kind: persistence-release
 
 # Persistence release: dsh-v0.1.1-rc.1
 
-English | [中文](dsh-v0.1.1-rc.1.zh.md)
-
+English`r`n
 ## Summary
 
 permission/preset gains optional origin with default, selection, and inferred values. The writer format remains 0.

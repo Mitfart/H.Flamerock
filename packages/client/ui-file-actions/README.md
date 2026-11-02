@@ -5,8 +5,7 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-client-ui-file-actions
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Download and save original files without changing their encoding. Copy images as pasteable PNG content while retaining the original format for saves. Desktop can reveal a successfully saved file; a browser download never claims to know its local destination.

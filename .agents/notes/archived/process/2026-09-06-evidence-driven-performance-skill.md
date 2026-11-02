@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-06-evidence-driven-performance-skill.zh.md)
-
+English`n
 ## Problem
 
 Performance work can improve an isolated phase while moving cost into another phase, retaining more data, or skipping required behavior. Historical PR descriptions also retain abandoned implementations and estimates, so copying their apparent solution can restore a rejected design instead of addressing a current bottleneck.

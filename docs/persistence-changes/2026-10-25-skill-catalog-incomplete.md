@@ -5,8 +5,7 @@ kind: persistence-change
 
 # 2026-10-25-skill-catalog-incomplete
 
-English | [中文](2026-10-25-skill-catalog-incomplete.zh.md)
-
+English`r`n
 ## Summary
 
 Adds optional incomplete: true metadata to skill-catalog message sources when discovery returns only the currently readable skills.

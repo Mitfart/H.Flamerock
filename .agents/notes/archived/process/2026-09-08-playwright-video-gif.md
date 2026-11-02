@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-08-playwright-video-gif.zh.md)
-
+English`n
 ## Problem
 
 A screenshot storyboard omits intermediate animation frames and can miss short-lived progress indicators. Increasing the encoded GIF frame rate cannot recover motion absent from its source images. Continuous capture supplies those frames while the available browser-control workflow handles interaction.

@@ -4,9 +4,7 @@
 export const NS = 'messageQuotes'
 
 /** Simplified Chinese dictionary and key source. */
-export const zh = {
-  'quote.add': '引用文本',
-}
+export const zh: Record<string, string> = {}
 
 /** Supported Quote interaction copy keys. */
 export type MessageQuotesKey = keyof typeof zh
@@ -17,31 +15,19 @@ export const en: Record<MessageQuotesKey, string> = {
 }
 
 /** Japanese dictionary. */
-export const ja = {
-  'quote.add': 'テキストを引用',
-} satisfies Record<MessageQuotesKey, string>
+export const ja: Record<string, string> = {}
 
 /** Spanish dictionary, checked against the English keys. */
-export const es = {
-  'quote.add': 'Texto de cotización',
-} satisfies Record<keyof typeof en, string>
+export const es: Record<string, string> = {}
 
 /** French dictionary, checked against the English keys. */
-export const fr = {
-  'quote.add': 'Texte de citation',
-} satisfies Record<keyof typeof en, string>
+export const fr: Record<string, string> = {}
 
 /** German dictionary, checked against the English keys. */
-export const de = {
-  'quote.add': 'Zitattext',
-} satisfies Record<keyof typeof en, string>
+export const de: Record<string, string> = {}
 
 /** Russian dictionary, checked against the English keys. */
-export const ru = {
-  'quote.add': 'Текст цитаты',
-} satisfies Record<keyof typeof en, string>
+export const ru: Record<string, string> = {}
 
 /** Portuguese dictionary, checked against the English keys. */
-export const pt = {
-  'quote.add': 'Citação de texto',
-} satisfies Record<keyof typeof en, string>
+export const pt: Record<string, string> = {}

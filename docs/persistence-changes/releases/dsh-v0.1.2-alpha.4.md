@@ -5,8 +5,7 @@ kind: persistence-release
 
 # Persistence release: dsh-v0.1.2-alpha.4
 
-English | [中文](dsh-v0.1.2-alpha.4.zh.md)
-
+English`r`n
 ## Summary
 
 The logical SessionHeader replaces optional seedLength with required isSeeded, while the physical JSONL header still declares seedLength. The subagent-report and coordinator user-message source variants become agent-message. The writer format remains 0.

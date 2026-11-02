@@ -5,8 +5,7 @@ kind: persistence-release
 
 # Persistence release: dsh-v0.0.1-rc.2
 
-English | [中文](dsh-v0.0.1-rc.2.zh.md)
-
+English`r`n
 ## Summary
 
 The event envelope gains optional ignorable, and schedule/change plus four tool-workflow events are added. The writer format remains 0.

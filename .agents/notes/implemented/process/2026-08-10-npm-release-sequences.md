@@ -2,8 +2,7 @@
 
 Status: implemented
 
-English | [中文](2026-08-10-npm-release-sequences.zh.md)
-
+English`n
 ## Problem
 
 This repository held three unrelated groups of publishable packages and no channel that sent any of them to a registry.

@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-20-developer-tools-default-on.zh.md)
-
+English`n
 ## Problem
 
 New installations need access to developer views, preset selection, change summaries and interactive HTML previews without first finding a Settings switch. A saved disabled preference must still prevent those features from activating during startup, including script execution that cannot be undone after it occurs.

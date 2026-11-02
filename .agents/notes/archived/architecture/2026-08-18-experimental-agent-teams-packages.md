@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-08-18-experimental-agent-teams-packages.zh.md)
-
+English`n
 ## Problem
 
 Agent Teams needs the real Session log, subagent lifecycle, tools, examples, snapshots, and repository checks while its service and tool contracts continue to change. Users also need to install the complete Team composition from npm without building a source checkout.

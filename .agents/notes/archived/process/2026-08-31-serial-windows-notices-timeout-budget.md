@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-04
 
-English | [中文](2026-08-31-serial-windows-notices-timeout-budget.zh.md)
-
+English`n
 ## Problem
 
 The `serial / windows (self-hosted standby)` master lane failed its `test:coverage` gate four times in a week (runs 33333033178, 33311481884, 33352293522, 33353113100), always on the same case: `scripts/gen-third-party-notices.spec.ts > THIRD_PARTY_NOTICES.md > matches what the generator produces from the current manifests`, with `Error: Test timed out in 5000ms`. Measured test wall times on the shared Windows host were 4149–8853 ms against Vitest's default 5000 ms per-test budget. All other 26 cases in the file finished in 0–3 ms, and the passing run two hours later (33360033028) had the same code green.

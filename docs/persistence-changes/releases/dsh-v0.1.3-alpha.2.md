@@ -5,8 +5,7 @@ kind: persistence-release
 
 # Persistence release: dsh-v0.1.3-alpha.2
 
-English | [中文](dsh-v0.1.3-alpha.2.zh.md)
-
+English`r`n
 ## Summary
 
 feedback/message-put and feedback/message-delete are added without changing the existing persistence root digests. The writer format remains 2.

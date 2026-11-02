@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-04
 
-English | [中文](2026-08-26-inspector-execution-realms-and-protocol-planes.zh.md)
-
+English`n
 ## Problem
 
 The Inspector package executes code in three JavaScript environments: the browser Client, the Host Node main thread, and an Inspector Worker thread. Without execution-oriented directories, feature names alone do not establish where code runs or which identifiers it may own.

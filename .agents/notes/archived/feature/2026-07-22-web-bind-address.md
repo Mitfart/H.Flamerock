@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-04
 
-English | [中文](2026-07-22-web-bind-address.zh.md)
-
+English`n
 ## Problem
 
 The Web application can run commands with the Host user's authority. Same-machine use needs only loopback reachability, while an all-interface CLI mode would imply a supported network deployment without TLS or a defined proxy contract.

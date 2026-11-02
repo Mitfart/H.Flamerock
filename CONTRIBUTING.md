@@ -1,7 +1,6 @@
 # Contributing
 
-English | [中文](CONTRIBUTING.zh.md)
-
+English`n
 Thank you for your interest in contributing to DeepSeek Harness!
 
 We deeply believe in the power of open source communities, and that belief has shaped this project from the very beginning.

@@ -5,8 +5,7 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-experimental-subagent-oar
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Compose this experimental provider with the `subagent_oar` tool to delegate standalone text tasks to Codex and Claude Code in the selected workspace. The provider embeds the OAR library, so no separate OAR CLI installation is required. Codex and Claude Code use their installed native CLIs, authentication, and settings.

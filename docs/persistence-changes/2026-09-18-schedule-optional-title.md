@@ -5,8 +5,7 @@ kind: persistence-change
 
 # 2026-09-18-schedule-optional-title
 
-English | [中文](2026-09-18-schedule-optional-title.zh.md)
-
+English`r`n
 ## Summary
 
 Makes the stored title optional on the after, at, and every variants of a persisted schedule/change create record.

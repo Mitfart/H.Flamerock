@@ -5,8 +5,7 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-experimental-worktree
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Create an isolated checkout from a local commit and continue the same Session in it. Each operation creates a new named branch and leaves the source checkout intact. The existing sandbox governs all writes. Leaving the checkout retains its files and branch.

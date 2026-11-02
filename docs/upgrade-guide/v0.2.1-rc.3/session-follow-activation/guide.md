@@ -4,8 +4,7 @@ description: "Session follow callers must explicitly request background Agent ac
 ---
 # Request activation when following a Session
 
-English | [中文](guide.zh.md)
-
+English`r`n
 ## Change
 
 `session.follow` no longer automatically resumes a cold ordinary Agent when `activate` is omitted. It reads the opening snapshot and follows subsequent events without activation. This affects integrations that used opening a history stream to make an Agent available. The shipped Web Client sends `activate: true` explicitly and retains its opening behavior.

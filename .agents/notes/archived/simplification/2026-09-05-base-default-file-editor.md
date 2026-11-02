@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-05-base-default-file-editor.zh.md)
-
+English`n
 ## Problem
 
 The shared base selects both `read`/`write`/`edit` and `str_replace_editor`, which offer overlapping file editing interfaces. Issue #3599 requests one default interface for base-backed profiles while preserving the dedicated minimal compositions.

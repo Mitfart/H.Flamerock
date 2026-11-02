@@ -4,8 +4,7 @@ description: "Publish completed Desktop installers and update feeds to the selec
 
 # Desktop publication
 
-English | [中文](README.zh.md)
-
+English`n
 ## Summary
 
 Publish completed Desktop installers and update feeds to the selected download service. This reference covers deployment identity, upload credentials, fixed downloads and audit records. Build configuration and signing operations have separate owners.

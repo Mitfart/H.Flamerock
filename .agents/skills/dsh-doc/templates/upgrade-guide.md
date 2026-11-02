@@ -16,8 +16,7 @@ description: "The externally perceptible surface that breaks and what replaces i
 ````markdown
 # <Specific break, for example: `--profile` replaces `--preset`>
 
-English | [中文](guide.zh.md)
-
+English`n
 ## Change
 
 State the old and new behavior of the surface and who observes it.

@@ -5,8 +5,7 @@ kind: persistence-release
 
 # Persistence release: dsh-v0.1.2-alpha.3
 
-English | [中文](dsh-v0.1.2-alpha.3.zh.md)
-
+English`r`n
 ## Summary
 
 All reconstructed persistence root digests match the preceding alpha tag. The writer format remains 0.

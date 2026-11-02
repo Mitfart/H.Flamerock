@@ -2,8 +2,7 @@
 
 Status: implemented
 
-English | [中文](2026-07-24-single-harness-home-resolver.zh.md)
-
+English`n
 ## Problem
 
 The harness had two inconsistent conventions for "where does DeepSeek Harness user data live":

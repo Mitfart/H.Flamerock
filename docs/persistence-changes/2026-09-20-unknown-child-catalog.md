@@ -5,8 +5,7 @@ kind: persistence-change
 
 # 2026-09-20-unknown-child-catalog
 
-English | [中文](2026-09-20-unknown-child-catalog.zh.md)
-
+English`r`n
 ## Summary
 
 Retain unreadable historical children in subagent/catalog with unknown mode.

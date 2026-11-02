@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-04
 
-English | [中文](2026-07-06-explicit-tool-order.zh.md)
-
+English`n
 ## Problem
 
 Model-facing tool order followed plugin registration order, which depends on concurrent module loading for otherwise independent plugins. That race produced different request headers in CI and snapshot recordings. Because order affects request bytes, caching, and the durable header, it needs an explicit deterministic policy.

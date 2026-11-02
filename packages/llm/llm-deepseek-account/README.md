@@ -5,8 +5,7 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-llm-deepseek-account
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Register authentication, the account model listing, and model gating for `deepseek-account`. This plugin shares the [Messages transport](../llm-deepseek/README.md) and owns credential resolution, the account catalog, and model admission.

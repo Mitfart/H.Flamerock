@@ -5,8 +5,7 @@ kind: "package-library"
 
 # dsh-fs-patch
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Parse a complete Codex-style patch into ordered file operations with `parsePatch`, then apply update hunks to LF-normalized text with `applyHunks`. Both functions work on caller-supplied strings without filesystem access. Syntax errors throw with the original input line; matching returns new text or a structured failure.

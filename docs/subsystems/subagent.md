@@ -1,7 +1,6 @@
 # Subagents
 
-English | [中文](subagent.zh.md)
-
+English`r`n
 The unified activation API manages local conversations and external executions.
 
 ## Capabilities and activation requests

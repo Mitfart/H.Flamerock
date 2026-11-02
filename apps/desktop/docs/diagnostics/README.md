@@ -4,8 +4,7 @@ description: "Use this reference when recovering Desktop failures or collecting 
 
 # Desktop recovery and diagnostics
 
-English | [中文](README.zh.md)
-
+English`n
 ## Summary
 
 This reference describes Desktop native failure recovery, diagnostic reports, recent plugin operation records, and collection and shutdown limits.

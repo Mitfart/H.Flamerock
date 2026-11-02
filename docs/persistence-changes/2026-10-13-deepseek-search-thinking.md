@@ -5,8 +5,7 @@ kind: persistence-change
 
 # 2026-10-13-deepseek-search-thinking
 
-English | [中文](2026-10-13-deepseek-search-thinking.zh.md)
-
+English`r`n
 ## Summary
 
 Adds the optional `thinking` member to the logged DeepSeek search request body, recording that the auxiliary search turn disables thinking.

@@ -5,8 +5,7 @@ kind: "package-group"
 
 # document/ — Office conversion
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Convert authorized Office files to reusable PDFs on the Host. The shared service converts through LibreOffice kit. Targets with a declared native engine use it; other targets use Node WASM.

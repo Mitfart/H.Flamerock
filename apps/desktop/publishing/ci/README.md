@@ -4,8 +4,7 @@ description: "Operate retained Desktop package publication from dedicated macOS 
 
 # Desktop CI publication
 
-English | [中文](README.zh.md)
-
+English`n
 ## Summary
 
 Publish a completed package from its original machine without downloading its installer again. Both test and production publish binaries followed by update YAML. Both deployments require GitHub Environment approval; only production creates a GitHub App tag. Real COS, CDN and administrator-permission acceptance remain deployment checks; local fixtures do not establish those permissions.

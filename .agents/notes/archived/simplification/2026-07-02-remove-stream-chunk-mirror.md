@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-07-27
 
-English | [中文](2026-07-02-remove-stream-chunk-mirror.zh.md)
-
+English`n
 ## Problem
 
 The loop records every model token delta as a durable `assistant/chunk` session event AND emitted a parallel live `agent/stream-chunk` Cordis event carrying the identical data. In `packages/core/agent-loop/src/agent.ts` the two sat one line apart:

@@ -1,7 +1,6 @@
 # Todo
 
-English | [中文](todo.zh.md)
-
+English`r`n
 The durable todo vocabulary owned by [`@deepseek-ai/dsh-tool-todo`](../../packages/todo/tool-todo/README.md). The model-facing tool replaces one agent session's whole list; the package also owns the event declaration and replay projection. Tool behavior and configuration are on the [package README](../../packages/todo/tool-todo/README.md).
 
 Source: [`packages/todo/tool-todo/src/types.ts`](../../packages/todo/tool-todo/src/types.ts)

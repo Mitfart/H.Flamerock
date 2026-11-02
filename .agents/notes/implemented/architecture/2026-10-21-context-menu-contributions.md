@@ -2,8 +2,7 @@
 
 Status: implemented
 
-English | [中文](2026-10-21-context-menu-contributions.zh.md)
-
+English`n
 ## Problem
 
 Session and tab menus already accept React Slot entries. Reusing only those entries would require external plugins to supply React components and would leave action discovery, target capture, and cancellation coupled to each trigger.

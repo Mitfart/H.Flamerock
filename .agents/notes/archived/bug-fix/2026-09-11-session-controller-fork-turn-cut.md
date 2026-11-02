@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-16
 
-English | [中文](2026-09-11-session-controller-fork-turn-cut.zh.md)
-
+English`n
 ## Problem
 
 A user input enters the durable inbox before its `turn/start`. Extending a completed-turn fork through the following between-turn events can copy the next input's insertion without its later removal. Continuing the child then executes an input from beyond the selected turn.

@@ -4,8 +4,7 @@ description: "Configure and operate the Windows packaging runner, signing creden
 
 # Windows signing and runner operations
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Configure and operate the Windows packaging runner, signing credentials, EV token and signature cache. Read the accepted isolation risks before running branch code or accessing the token. Hardware failures require operator inspection; packaging success does not establish installation or production readiness.

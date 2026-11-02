@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-06-11-microkernel-event-taxonomy.zh.md)
-
+English`n
 ## Problem
 
 The product principle is "everything is a plugin": hooks, /goal, /loop, dynamic workflows, compaction, sandboxing, permissions, UI, persistence, MCP, skills must all be writable as plugins without modifying the core.

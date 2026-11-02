@@ -5,8 +5,7 @@ kind: persistence-release
 
 # Persistence release: dsh-v0.1.5-alpha.1
 
-English | [中文](dsh-v0.1.5-alpha.1.zh.md)
-
+English`r`n
 ## Summary
 
 The writer format advances from 2 to 3: system/message is added and EpochHeader removes system. Surface replacement fields change from start/end to startSeq/endSeq, and tool/code-dispatch event keys become tool/ptc-dispatch keys.

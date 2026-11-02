@@ -5,8 +5,7 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-session-telemetry-otel
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 The adapter injects `otel`; the [shared OTel plugin](../../telemetry/otel/README.md) creates its independent Session-log channel. Authorization, redaction, identity, scope version, configuration, and the shutdown deadline remain owned here.

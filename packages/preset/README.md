@@ -5,8 +5,7 @@ kind: "package-group"
 
 # packages/preset
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 This group declares Agent capabilities through ordinary Cordis configuration and manages selection and runtime revisions. The Host shares the Agent loop; each Agent sees the tools, prompts and skills of its selected revision.

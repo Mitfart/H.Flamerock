@@ -5,8 +5,7 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-tool-executor-native
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Use this executor when models should call each visible tool directly. Mount it beside the tool registry in the deployment, a preset, or an Agent scope. Parallel-safe calls can overlap; exclusive calls form barriers, and results remain in model order.

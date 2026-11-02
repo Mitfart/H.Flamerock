@@ -3,8 +3,7 @@
 Status: implemented
 Archived: 2026-09-04
 
-English | [中文](2026-07-04-tighten-hook-protocol-contract.zh.md)
-
+English`n
 ## Problem
 
 Four pieces of the `dsh-hook-protocol`/bridge contract missed the discipline the [subagent-observe-enrich Agent Note](../../archived/feature/2026-06-30-subagent-observe-enrich.md) records — it dropped an `agentType` lifecycle field for lacking a consumer, and these failed the same test:

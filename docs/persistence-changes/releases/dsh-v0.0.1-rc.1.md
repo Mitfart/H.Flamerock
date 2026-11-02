@@ -5,8 +5,7 @@ kind: persistence-release
 
 # Persistence release: dsh-v0.0.1-rc.1
 
-English | [中文](dsh-v0.0.1-rc.1.zh.md)
-
+English`r`n
 ## Summary
 
 This is the earliest available DSH alpha/rc tag and establishes the historical baseline: 42 persistence roots and writer format 0.

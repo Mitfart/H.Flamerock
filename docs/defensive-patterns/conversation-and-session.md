@@ -1,7 +1,6 @@
 # Conversation and Session rules
 
-English | [中文](conversation-and-session.zh.md)
-
+English`r`n
 Rules for reading a Session, holding one, computing conversation nodes, and rendering them. The data model and per-type semantics live in [session-projection.md](../subsystems/session-projection.md) and [conversation.md](../subsystems/conversation.md).
 
 ## Projection is the only read and compute path

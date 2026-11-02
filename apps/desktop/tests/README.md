@@ -1,7 +1,6 @@
 # Desktop local verification
 
-English | [中文](README.zh.md)
-
+English`r`n
 ## Summary
 
 Local download and mandatory-dialog evidence is separate from production backend integration, visual acceptance, and installed-application upgrades. Run the command in the [Desktop README](../README.md) to produce a fresh isolated report.
