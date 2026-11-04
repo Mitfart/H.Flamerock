@@ -3,7 +3,8 @@
 Status: implemented
 Archived: 2026-09-04
 
-English`n
+English | [中文](2026-08-09-conversational-schedule-delivery.zh.md)
+
 ## Problem
 
 Schedule already delivers a due reminder by queuing a normal Agent follow-up. A second durable Web receipt represented the same occurrence through a Schedule projection, a persistence-success event, Host history and live sidecars, client same-sequence upgrades, a generic event-view slot, and a dedicated renderer. That path spread one feature's confirmation UI across Session, persistence, Host, client runtime, conversation UI, and an extra package.

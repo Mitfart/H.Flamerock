@@ -3,7 +3,8 @@
 Status: implemented
 Archived: 2026-09-30
 
-English`n
+English | [中文](2026-09-02-projcache-cross-version-read-compat.zh.md)
+
 ## Problem
 
 The `session_projcache` storage domain evolved through several on-disk generations. An upgraded DSH_HOME exposed three risks:

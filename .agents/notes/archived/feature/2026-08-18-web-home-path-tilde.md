@@ -3,7 +3,8 @@
 Status: implemented
 Archived: 2026-08-22
 
-English`n
+English | [中文](2026-08-18-web-home-path-tilde.zh.md)
+
 ## Problem
 
 Workspace hover cards and Tool call summaries showed full POSIX home paths. Those strings are long, repeat the same prefix on every row, and make the sidebar and transcript harder to scan. Windows paths must stay verbatim because `~` is not a Windows filesystem convention.

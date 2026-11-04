@@ -3,7 +3,8 @@
 Status: implemented
 Archived: 2026-09-04
 
-English`n
+English | [中文](2026-08-30-team-send-message-steer.zh.md)
+
 ## Problem
 
 Agent Teams exposed two model operations for one durable mailbox: quiet `send_message` injected into a live target without waking it, while `followup_task` queued a distinct waking turn and cold-resumed an inactive teammate. Models had to choose a scheduling policy instead of stating whom to message, and quiet messages could accumulate for an inactive teammate until unrelated work resumed it.

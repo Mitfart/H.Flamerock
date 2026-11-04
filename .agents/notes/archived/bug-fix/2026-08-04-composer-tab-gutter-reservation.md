@@ -3,7 +3,8 @@
 Status: implemented
 Archived: 2026-09-04
 
-English`n
+English | [中文](2026-08-04-composer-tab-gutter-reservation.zh.md)
+
 ## Problem
 
 The composer seat is one node in one place in the tree, and it was laid out against a different edge depending on which view tab was shown.

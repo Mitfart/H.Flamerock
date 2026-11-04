@@ -3,7 +3,8 @@
 Status: implemented
 Archived: 2026-09-30
 
-English`n
+English | [中文](2026-09-20-windows-embedded-mandatory-update.zh.md)
+
 ## Problem
 
 A second native Windows window does not resize atomically with its parent, producing a detached overlay during maximization (#4566). Native modality also disables the parent controls that users need to exit.

@@ -3,7 +3,8 @@
 Status: implemented
 Archived: 2026-09-04
 
-English`n
+English | [中文](2026-06-11-vendor-cordis-as-source.zh.md)
+
 ## Problem
 
 DeepSeek Harness is built on the Cordis framework. Cordis core was at 4.0.0-rc.6 (a release candidate) when this repo started; the harness depends on framework internals (fiber lifecycle, effect disposal, waterfall dispatch) whose exact behavior matters to the agent loop's correctness guarantees.

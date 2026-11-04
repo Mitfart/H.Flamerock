@@ -3,7 +3,8 @@
 Status: implemented
 Archived: 2026-09-30
 
-English`n
+English | [中文](2026-09-12-mcp-sdk-protocol-negotiation.zh.md)
+
 ## Problem
 
 MCP servers use different protocol revisions. A tool bridge that implements discovery and execution around an older SDK can omit modern request headers, subscription setup, or protocol validation.

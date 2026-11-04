@@ -3,7 +3,8 @@
 Status: implemented
 Archived: 2026-09-04
 
-English`n
+English | [中文](2026-07-31-fork-anchor-floors-to-event-seq.zh.md)
+
 ## Problem
 
 The fork button on a stopped assistant message did nothing at all — no child session, no error, no visible reaction.

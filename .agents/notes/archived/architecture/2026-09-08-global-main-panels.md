@@ -3,7 +3,8 @@
 Status: implemented
 Archived: 2026-09-30
 
-English`n
+English | [中文](2026-09-08-global-main-panels.zh.md)
+
 ## Problem
 
 Plugins need application-wide views that do not belong to a Session. A Session-scoped Conversation view cannot provide that lifetime, and replacing the Conversation's single slot removes the ordinary conversation surface. Adding this extension must not add navigation controls or reserved space to the default application.

@@ -3,7 +3,8 @@
 Status: implemented
 Archived: 2026-09-30
 
-English`n
+English | [中文](2026-09-21-multimodal-tool-result-retention.zh.md)
+
 ## Problem
 
 MCP prepares durable images asynchronously while its pure renderer emits text placeholders. Installing prepared content after post-execute policy makes text retention invalidate image replacement. A byte-only limit also cannot compare text with visual input costs.
