@@ -1,9 +1,9 @@
 
 
 /** The settings namespace key union. */
-export type SettingsKey = keyof typeof zh
+export type SettingsKey = keyof typeof en
 
-/** English dictionary, checked complete against the zh key set. */
+/** English dictionary and source of truth for the namespace keys. */
 export const en = {
   'desktop.channel.title': 'Update channel',
   'desktop.channel.description': 'Stable is suitable for everyday use. Development offers early access to new features but may be unstable.',
@@ -70,7 +70,7 @@ export const en = {
   'hostRelease.unknown': 'Unknown',
   'hostRelease.reload': 'Reload to load the new version',
   'hostRelease.later': 'Not now',
-} satisfies Record<SettingsKey, string>
+}
 
 export const zh = en
 export const ja = en
