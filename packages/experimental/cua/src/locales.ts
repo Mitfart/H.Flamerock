@@ -7,48 +7,15 @@ export const en = {
   approve: 'Allow for this session',
 }
 
-/** Chinese application-access messages. */
-export const zh: Record<string, string> = {}
+/** English text that the Client resolves directly; wire choices stay unchanged. */
+type EnglishDisplayText = { readonly en: string; readonly [locale: string]: string }
 
-/** Japanese application-access messages. */
-export const ja: Record<string, string> = {}
-
-/** Spanish dictionary, checked against the English keys. */
-export const es: Record<string, string> = {}
-
-/** French dictionary, checked against the English keys. */
-export const fr: Record<string, string> = {}
-
-/** German dictionary, checked against the English keys. */
-export const de: Record<string, string> = {}
-
-/** Russian dictionary, checked against the English keys. */
-export const ru: Record<string, string> = {}
-
-/** Portuguese dictionary, checked against the English keys. */
-export const pt: Record<string, string> = {}
-
-/** Display translations resolved by the Client; wire choices stay unchanged. */
-export const applicationAccessDisplay = {
-  question: {
-    en: en.question,
-    zh: zh.question,
-    ja: ja.question,
-    es: es.question,
-    fr: fr.question,
-    de: de.question,
-    ru: ru.question,
-    pt: pt.question,
-  },
-  detail: { en: en.detail, zh: zh.detail, ja: ja.detail, es: es.detail, fr: fr.detail, de: de.detail, ru: ru.detail, pt: pt.detail },
-  approve: {
-    en: en.approve,
-    zh: zh.approve,
-    ja: ja.approve,
-    es: es.approve,
-    fr: fr.approve,
-    de: de.approve,
-    ru: ru.approve,
-    pt: pt.approve,
-  },
+export const applicationAccessDisplay: {
+  readonly question: EnglishDisplayText
+  readonly detail: EnglishDisplayText
+  readonly approve: EnglishDisplayText
+} = {
+  question: { en: en.question },
+  detail: { en: en.detail },
+  approve: { en: en.approve },
 }

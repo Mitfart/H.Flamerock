@@ -191,6 +191,16 @@ export const en = {
 /** Every Desktop locale supplies the complete English key set. */
 export type DesktopMessages = { readonly [Key in keyof typeof en]: string }
 
+export const zh = en
+export const ja = en
+export const es = en
+export const fr = en
+export const de = en
+export const ru = en
+export const pt = en
+
+
+
 const dictionaries = { en, zh, ja, es, fr, de, ru, pt }
 
 /** Locale payload exposed to the Desktop-owned renderer. */
@@ -251,10 +261,4 @@ export function desktopUpdateReadyConfirmation(
   }
 }
 
-export const zh = en
-export const ja = en
-export const es = en
-export const fr = en
-export const de = en
-export const ru = en
-export const pt = en
+
